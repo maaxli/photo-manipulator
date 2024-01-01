@@ -30,7 +30,7 @@ public class GUI implements Runnable {
 
     private final JLabel imageLabel = new JLabel(currentPic.toImageIcon());
 
-    private final JFrame frame = new JFrame("Pennstagram");
+    private final JFrame frame = new JFrame("Photo Manipulator");
 
     // update the currently displayed image, saving the old version for undo.
     private void changeImage(PixelPicture pnew) {
